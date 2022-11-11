@@ -17,5 +17,5 @@ Notes:
 	
 License & Credit:
 - The emoji images in this resource pack are used from [Twemoji](https://twemoji.twitter.com/), which are licensed by [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
-- This resource pack and AndrosDiscordEmojis (the original) are also licensed by [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Feel free to use and adapt in your own resource pack but give appropriate credit and provde a link to the license.
+- This resource pack and [AndrosDiscordEmojis](https://github.com/Androkai/AndrosDiscordEmojis) (the resource pack this project is based on) are also licensed by [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Feel free to use and adapt in your own resource pack but give appropriate credit and provde a link to the license.
 - Androkai gave me permission to make this pack in [this GitHub issue](https://github.com/Androkai/AndrosDiscordEmojis/issues/4).
