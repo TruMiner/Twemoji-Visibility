@@ -1,10 +1,10 @@
 {
     "pack": {
-        "description": "😀 §8| §f💬 Replaces emojis with Twemoji emojis! §8| 🔵 §b(Twemoji)",
-        "pack_format": 34,
+        "description": "§f😀 §8| §f💬 Replaces emojis with Twemoji emojis! §8| §f🔵 §b(Twemoji)",
+        "pack_format": 15,
         "supported_formats": {
-            "min_inclusive": 34,
-            "max_inclusive": 500
+            "min_inclusive": 15,
+            "max_inclusive": 50
         }
     }
 }
