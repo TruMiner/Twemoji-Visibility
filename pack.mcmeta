@@ -1,6 +1,10 @@
 {
     "pack": {
-        "description": "§f📄 1.19.4 §8| §f💬 Allows you to see emojis in chat! §8| §f🔵 §b(Twemojis)",
-        "pack_format": 13
+        "description": "😀 §8| §f💬 Replaces emojis with Twemoji emojis! §8| 🔵 §b(Twemoji)",
+        "pack_format": 34,
+        "supported_formats": {
+            "min_inclusive": 34,
+            "max_inclusive": 500
+        }
     }
 }
