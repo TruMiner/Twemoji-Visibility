@@ -21,8 +21,6 @@ out vec3 pos;
 out vec4 lightMapColor;
 out vec4 screenPos;
 
-//out vec4 justColor;
-
 void main() {
     float alpha = texture(Sampler0, UV0).a;
     vec3 newPos = Position;
@@ -36,8 +34,6 @@ void main() {
     vertexDistance = fog_distance(Position, FogShape);
     lightMapColor = texelFetch(Sampler2, UV2 / 16, 0);
     vertexColor = Color * lightMapColor;
-
-    //justColor = Color;
 
     texCoord0 = UV0;
 }
