@@ -22,12 +22,7 @@ out vec4 lightMapColor;
 out vec4 screenPos;
 
 void main() {
-    float alpha = texture(Sampler0, UV0).a;
-    vec3 newPos = Position;
-    if (ProjMat[3][0] != -1 && alpha < 1.0 && alpha > 0.0) {
-        newPos += vec3(0.0, 2.0, 0.0);
-    }
-    gl_Position = ProjMat * ModelViewMat * vec4(newPos, 1.0);
+    gl_Position = ProjMat * ModelViewMat * vec4(Position, 1.0);
     pos = Position;
     screenPos = ModelViewMat * vec4(Position, 1.0);
 
